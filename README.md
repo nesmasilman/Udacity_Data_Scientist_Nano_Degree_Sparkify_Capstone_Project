@@ -10,7 +10,9 @@ Sparkify Capstone Project
 * Resources
 
 # Introduction
-Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this project will explore the dataset that describes the listing activity of homestays in Boston, MA.
+This project explores a music streaming application called "Sparkify". We have a dataset that contains data related to the app. users and their activities within the app. In this project, we will be working on a small subset of the data to explore different features and build a machine learning model to predict users churn.
+
+We can define churn as the activity when a user submits a "Cancellation Confirmation" request. Predicting users churn will help us try to understand the reasons (features) that contributes to their churn decision and try to overcome it. We can also make tailored offers/promotions to predicted churn users.
 
 # Scope
 By exploring this dataset, we will be looking for answers for the below 3 questions:
