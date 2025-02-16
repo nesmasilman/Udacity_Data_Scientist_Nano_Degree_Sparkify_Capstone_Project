@@ -46,8 +46,8 @@ This project uses pyspark software
 - We built three different machine learning models to predict churn (GBTClassifier, RandomForestClassifier, DecisionTreeClassifier). The one with the best performance was RandomForestClassifier, so we chose it for final prediction.
 - We made three splits from the data (train, validation and test). We used the validation set for baseline model selection and Gridsearch cross-validation.
 - We used gridseach cross-validation to try different parameters, but the best model didn't improve performance, so we used our baseline model.
-- Our dataset is imbalanced, so we used f1-score to evaluate model performance. Best model scored 76.41% f1-score on our test set. 
-
+- Our dataset is imbalanced, so we used f1-score to evaluate model performance. Best model scored 76.41% f1-score on our test set.
+- We calculated feature importances. The two most important features were the average duration (avg number of subscription days) and the avg(length) (average length of songs)
 
 # Resources
 The columns description was obtained from https://medium.com/@ferenc.hechler/sparkify-customer-satisfaction-prediction-f3b0941e8710
