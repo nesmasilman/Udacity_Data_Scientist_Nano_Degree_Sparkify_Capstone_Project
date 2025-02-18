@@ -4,10 +4,11 @@ Sparkify Capstone Project
 # Table of contents
 * Introduction
 * Scope
+* Files
 * Datasets
 * Technologies
 * Outcome
-* Resources
+* Acknowledgements
 
 # Introduction
 This project explores a music streaming application called "Sparkify". We have a dataset that contains data related to the app. users and their activities within the app. In this project, we will be working on a small subset of the data to explore different features and build a machine learning model to predict users churn.
@@ -15,6 +16,11 @@ This project explores a music streaming application called "Sparkify". We have a
 # Scope
 By exploring this dataset, we will be trying to predict churn cases. We can define churn as the activity when a user submits a "Cancellation Confirmation" request. Predicting users churn will help us try to understand the reasons (features) that contributes to their churn decision and try to overcome it. We can also make tailored offers/promotions for the predicted churn users to retain them.
 
+# Files
+This repository contains the below files:
+- Sparkify Project.ipynb: The notebook containing the code used for analysis and building the model.
+- Sparkify Blog Post.pdf: A blog post with the analysis findings and future steps.
+  
 # Dataset
 We are using a small subset from our main dataset. Our subset name is called mini_sparkify_event_data.json 
 
@@ -55,5 +61,7 @@ This project uses the following python libraries:
 - Our dataset is imbalanced, so we used f1-score to evaluate model performance. Best model scored 76.41% f1-score on our test set.
 - We calculated feature importances. The two most important features were the average duration (avg number of subscription days) and the avg(length) which is the average length of songs.
 
-# Resources
-The columns description was obtained from https://medium.com/@ferenc.hechler/sparkify-customer-satisfaction-prediction-f3b0941e8710
+# Acknowledgements
+
+The columns description was obtained from a Medium article by Ferenc Hechler:
+https://medium.com/@ferenc.hechler/sparkify-customer-satisfaction-prediction-f3b0941e8710
