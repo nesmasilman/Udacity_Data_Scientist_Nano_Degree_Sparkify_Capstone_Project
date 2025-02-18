@@ -40,7 +40,13 @@ Columns Description:
 * artist : artist performing the song, like “Adam Lambert”
 
 # Technologies
-This project uses pyspark software
+This project uses the following python libraries:
+- pyspark==3.5.0
+- regex==2.2.1
+- numpy==1.26.3
+- pandas==2.1.4
+- matplotlib==3.8.2
+- seaborn==0.13.1
 
 # Outcome
 - We built three different machine learning models to predict churn (GBTClassifier, RandomForestClassifier, DecisionTreeClassifier). The one with the best performance was RandomForestClassifier, so we chose it for final prediction.
